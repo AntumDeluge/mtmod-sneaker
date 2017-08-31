@@ -27,7 +27,7 @@ sneeker.log('Spawn interval: ' .. tostring(spawn_interval) .. ' (' .. tostring(s
 sneeker.log('Maximum light value for spawn: ' .. tostring(spawn_maxlight))
 
 core.register_abm({
-	nodenames = {'default:dirt_with_grass', 'default:stone'},
+	nodenames = {'nether:rack'},
 	neighbors = {'air'},
 	interval = spawn_interval,
 	chance = spawn_chance,
